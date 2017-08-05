@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceClient", "DeviceClient\DeviceClient.csproj", "{F873955A-382B-42D2-A0CE-88D33BD77EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{8B6D5710-8C3F-4C8D-B710-083976F747B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4A4F78D4-35CC-4FF5-AED6-1EFCD8D8B5AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "SimulatedDevice\SimulatedDevice.csproj", "{6EE376CE-AFDE-49A8-9F1D-2D94B573DAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCriticalQueue", "ReadCriticalQueue\ReadCriticalQueue.csproj", "{E0DF4197-761F-47D2-A0A2-457529038961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMEventGenerator", "ATMEventGenerator\ATMEventGenerator.csproj", "{D82F41EC-2931-460B-A804-B1755E6825C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmDashboard", "AtmDashboard\AtmDashboard.csproj", "{E529AF6D-3F08-429D-AB88-37AC22B65CB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F873955A-382B-42D2-A0CE-88D33BD77EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F873955A-382B-42D2-A0CE-88D33BD77EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F873955A-382B-42D2-A0CE-88D33BD77EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F873955A-382B-42D2-A0CE-88D33BD77EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6D5710-8C3F-4C8D-B710-083976F747B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6D5710-8C3F-4C8D-B710-083976F747B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6D5710-8C3F-4C8D-B710-083976F747B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6D5710-8C3F-4C8D-B710-083976F747B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4F78D4-35CC-4FF5-AED6-1EFCD8D8B5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4F78D4-35CC-4FF5-AED6-1EFCD8D8B5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4F78D4-35CC-4FF5-AED6-1EFCD8D8B5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4F78D4-35CC-4FF5-AED6-1EFCD8D8B5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE376CE-AFDE-49A8-9F1D-2D94B573DAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE376CE-AFDE-49A8-9F1D-2D94B573DAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE376CE-AFDE-49A8-9F1D-2D94B573DAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE376CE-AFDE-49A8-9F1D-2D94B573DAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DF4197-761F-47D2-A0A2-457529038961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DF4197-761F-47D2-A0A2-457529038961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DF4197-761F-47D2-A0A2-457529038961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DF4197-761F-47D2-A0A2-457529038961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82F41EC-2931-460B-A804-B1755E6825C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82F41EC-2931-460B-A804-B1755E6825C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82F41EC-2931-460B-A804-B1755E6825C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82F41EC-2931-460B-A804-B1755E6825C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E529AF6D-3F08-429D-AB88-37AC22B65CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E529AF6D-3F08-429D-AB88-37AC22B65CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E529AF6D-3F08-429D-AB88-37AC22B65CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E529AF6D-3F08-429D-AB88-37AC22B65CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal
